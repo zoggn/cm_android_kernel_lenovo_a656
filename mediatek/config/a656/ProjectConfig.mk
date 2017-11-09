@@ -166,7 +166,7 @@ CUSTOM_KERNEL_USB = mt6577
 CUSTOM_KERNEL_VIBRATOR = vibrator
 
 # To choose LK LCM driver name
-CUSTOM_LK_LCM = nt35516_qhd_dsi_cmd_ipsboe
+CUSTOM_LK_LCM = otm8018b_dsi_vdo_tianma otm8009_dsi_6589
 
 # A mechanism for customer to enable their own sign key.
 CUSTOM_PRELOADER_CUSTOM = custom
@@ -1262,16 +1262,16 @@ MTK_HDMI_SUPPORT = no
 BOOT_LOGO = cu_qhd
 
 # To choose kernel LCM driver name
-CUSTOM_KERNEL_LCM = nt35516_qhd_dsi_cmd_ipsboe
+CUSTOM_KERNEL_LCM = otm8018b_dsi_vdo_tianma otm8009_dsi_6589
 
 # To choose uboot LCM driver name
-CUSTOM_UBOOT_LCM = nt35516_qhd_dsi_cmd_ipsboe
+CUSTOM_UBOOT_LCM = otm8018b_dsi_vdo_tianma otm8009_dsi_6589
 
 # To set LCM resolution height size
-LCM_HEIGHT = 960
+LCM_HEIGHT = 854
 
 # To set LCM resolution width size
-LCM_WIDTH = 540
+LCM_WIDTH = 480
 
 # mATV feature control option which is used for swithing on/off mATV feature: switch on:  HAVE_MATV_FEATURE  =  yes switch off: HAVE_MATV_FEATURE  =  no
 HAVE_MATV_FEATURE = no

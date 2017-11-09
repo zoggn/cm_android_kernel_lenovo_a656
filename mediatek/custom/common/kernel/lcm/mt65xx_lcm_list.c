@@ -47,6 +47,8 @@ extern LCM_DRIVER gn_ssd2825_smd_s6e8aa;
 extern LCM_DRIVER hx8369_dsi_bld_lcm_drv;
 extern LCM_DRIVER hx8369_dsi_tm_lcm_drv;
 extern LCM_DRIVER otm8018b_dsi_vdo_lcm_drv;	 
+extern LCM_DRIVER otm8009_dsi_6589_lcm_drv;
+extern LCM_DRIVER otm8018b_dsi_vdo_tianma_lcm_drv;
 extern LCM_DRIVER nt35512_dsi_vdo_lcm_drv;
 extern LCM_DRIVER hx8369_rgb_6585_fpga_lcm_drv;
 extern LCM_DRIVER hx8392a_dsi_cmd_lcm_drv;
@@ -283,6 +285,14 @@ LCM_DRIVER* lcm_driver_list[] =
 	&otm8018b_dsi_vdo_lcm_drv, 
 #endif
 
+#if defined(OTM8018B_DSI_VDO_TIANMA)
+	&otm8018b_dsi_vdo_tianma_lcm_drv,
+#endif     
+
+#if defined(OTM8009_DSI_6589)
+	&otm8009_dsi_6589_lcm_drv,
+#endif
+    
 #if defined(NT35512_DSI_VDO)
 	&nt35512_dsi_vdo_lcm_drv, 
 #endif
