@@ -1,4 +1,4 @@
-Proton kernel for Lenovo A820
+Proton kernel for Lenovo A656
 ===============================
 
 Compile with arm-eabi 4.7 or 4.8 toolchain

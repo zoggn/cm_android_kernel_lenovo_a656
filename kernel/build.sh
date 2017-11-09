@@ -3,9 +3,9 @@
 set -e
 
 #Export CROSS_COMPILE to point toolchain
-export CROSS_COMPILE="ccache ../../arm-cortex_a7-linux-gnueabihf-linaro_4.9.4-2015.06/bin/arm-eabi-"
+export CROSS_COMPILE="tools/arm-cortex_a7-linux-gnueabihf-linaro_4.9.4-2015.06/bin/arm-eabi-"
 export TARGET_BUILD_VARIANT=user
-export TARGET_PRODUCT=lenovo89_cu_jb
+export TARGET_PRODUCT=a656
 export MTK_ROOT_CUSTOM=../mediatek/custom/
 export ARCH=arm
 
@@ -14,7 +14,7 @@ export ARCH=arm
 echo "We are actually building for $TARGET_PRODUCT with $CROSS_COMPILE"
 
 #Workaround for + appended on kernelrelease
-export LOCALVERSION=Proton-Kernel-1.0
+export LOCALVERSION=-Zoggn_CM12.1
 
 #Create vars for OUT, SCRIPTS and RAMDISK directories
 OUT_DIRECTORY=../out/$TARGET_PRODUCT
